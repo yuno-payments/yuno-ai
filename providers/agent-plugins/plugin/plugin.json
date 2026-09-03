@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "yuno",
+  "version": "0.1.0",
+  "description": "Yuno agent plugin with skills for building and testing a Yuno integration \u2014 payment flows, authentication and environments, webhooks, SDK setup, error handling \u2014 plus a remote MCP server that reaches the Yuno API, searches the official documentation, and answers questions about your payment data.",
+  "author": {
+    "name": "Yuno"
+  },
+  "homepage": "https://docs.y.uno",
+  "repository": "https://github.com/yuno-payments/yuno-ai",
+  "license": "MIT",
+  "keywords": [
+    "yuno",
+    "payments",
+    "payment-orchestration",
+    "checkout",
+    "webhooks",
+    "api",
+    "documentation",
+    "analytics"
+  ]
+}

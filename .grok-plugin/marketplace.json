@@ -1,0 +1,17 @@
+{
+  "name": "yuno",
+  "owner": {
+    "name": "Yuno",
+    "email": "support@y.uno"
+  },
+  "metadata": {
+    "description": "Yuno integration guidance, API documentation search, and payment analytics for AI coding agents"
+  },
+  "plugins": [
+    {
+      "name": "yuno",
+      "source": "./providers/grok/plugin/",
+      "description": "Yuno development plugin for Grok Build: integration best practices for payment flows, webhooks and SDKs, search over the official Yuno API documentation, and plain-language answers about your payment data, through the Yuno MCP server."
+    }
+  ]
+}

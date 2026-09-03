@@ -1,0 +1,36 @@
+{
+  "name": "yuno",
+  "displayName": "Yuno",
+  "description": "Yuno development plugin for Grok Build: integration best practices for payment flows, webhooks and SDKs, search over the official Yuno API documentation, and plain-language answers about your payment data, through the Yuno MCP server.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Yuno",
+    "email": "support@y.uno"
+  },
+  "homepage": "https://docs.y.uno",
+  "repository": "https://github.com/yuno-payments/yuno-ai",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "yuno",
+    "payments",
+    "payment-orchestration",
+    "checkout",
+    "webhooks",
+    "subscriptions",
+    "api",
+    "mcp",
+    "grok",
+    "grok build",
+    "documentation",
+    "analytics"
+  ],
+  "category": "payments",
+  "tags": [
+    "yuno",
+    "payments",
+    "mcp",
+    "fintech"
+  ],
+  "mcpServers": "./.mcp.json"
+}
