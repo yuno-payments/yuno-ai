@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "yuno": {
+      "type": "http",
+      "url": "https://mcp-edge.agents.y.uno/mcp"
+    }
+  }
+}

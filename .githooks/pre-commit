@@ -1,0 +1,7 @@
+#!/bin/sh
+# Blocks a commit that leaves the providers out of sync, or that breaks the
+# plugin manifests. The org blocks .github/workflows, so this is the only gate.
+# Enable once per clone:  git config core.hooksPath .githooks
+set -e
+node scripts/sync-providers.mjs --check
+node scripts/validate-plugins.mjs >/dev/null
